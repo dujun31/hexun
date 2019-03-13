@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: Du Jun
 
-import time,pymysql
+import time
+import pymysql
 
 def count():
     conn = pymysql.connect(host="127.0.0.1", user="root", passwd="123", db="hexun")
